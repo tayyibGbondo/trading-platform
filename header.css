@@ -17,6 +17,7 @@ header {
 }
 .contents h1 {
   font-size: 3.5rem;
+  text-shadow: 0 0 6px white;
 }
 .contents p {
   font-size: 1.5rem;
@@ -33,6 +34,7 @@ header {
   border-radius: 4px;
   border: unset;
   font-size: 15px;
+  cursor: pointer;
 }
 .actionBtn .buy {
   background-color: unset;

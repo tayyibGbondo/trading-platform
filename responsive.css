@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .contents h1 {
+    font-size: 2rem;
+    text-shadow: 0 0 6px white;
+  }
+  .contents p {
+    font-size: 1.5rem;
+  }
+
+  /* =================================================================*/
+
+  .nav-links {
+    display: none !important;
+  }
+  .toggle_menu span {
+    background-color: black;
+    width: 40px;
+    height: 7px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  .toggle_menu {
+    display: block;
+  }
+
+  .toggle_menu-link {
+    display: block;
+    width: 200px;
+    background-color: yellow;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    box-sizing: border-box;
+    display: none;
+    z-index: 1000;
+    animation-name: fede;
+    animation-duration: 0.1s;
+  }
+  @keyframes fede {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(100px);
+    }
+  }
+  .toggle_menu-link .toggle_menu .line1 {
+    transform: rotate(60deg);
+    position: relative;
+    top: 10px;
+  }
+  .toggle_menu-link .toggle_menu .line2 {
+    transform: rotate(-60deg);
+  }
+  .theToggleLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+  }
+  .theToggleLinks li {
+    list-style: none;
+  }
+  .theToggleLinks li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+  }
+}

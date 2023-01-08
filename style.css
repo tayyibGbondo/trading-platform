@@ -25,6 +25,9 @@ nav {
 }
 .logo {
   font-size: 25px;
+  color: yellow;
+  font-weight: 700;
+  text-shadow: 0 0 2px black;
 }
 nav ul {
   display: flex;
@@ -45,4 +48,22 @@ nav ul li a:hover,
 nav ul li a:focus {
   border-top: 6px dotted black;
   opacity: 0.7;
+}
+.toggle_menu span {
+  background-color: black;
+  width: 40px;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  border-radius: 20px;
+}
+.toggle_menu {
+  background-color: yellow;
+  border-radius: 100%;
+  padding: 10px;
+  display: none;
+}
+.toggle_menu-link {
+  display: flex;
 }

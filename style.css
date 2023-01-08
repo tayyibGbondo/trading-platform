@@ -3,7 +3,10 @@
   padding: 0;
 }
 body {
-  background-color: white;
+  background-image: url("/imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   box-sizing: border-box;
 }
 
@@ -18,15 +21,13 @@ nav {
   position: fixed;
   box-sizing: border-box;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.13);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.19);
 }
 .logo {
   font-size: 25px;
-  color: yellow;
-  font-weight: 700;
+  color: rgb(13, 59, 240);
+  font-weight: 500;
   text-shadow: 0 0 2px black;
 }
 nav ul {
@@ -59,7 +60,7 @@ nav ul li a:focus {
   border-radius: 20px;
 }
 .toggle_menu {
-  background-color: yellow;
+  background-color: rgb(13, 59, 240);
   border-radius: 100%;
   padding: 10px;
   display: none;

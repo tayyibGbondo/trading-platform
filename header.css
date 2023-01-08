@@ -1,8 +1,4 @@
 header {
-  background-image: url("/imgs/background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +36,7 @@ header {
 }
 .actionBtn .buy {
   background-color: unset;
-  border: 2px solid yellow;
+  border: 2px solid rgb(13, 59, 240);
   color: white;
   transition: 0.5s;
 }

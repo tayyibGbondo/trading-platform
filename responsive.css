@@ -20,7 +20,7 @@
     display: none !important;
   }
   .toggle_menu span {
-    background-color: black;
+    background-color: white;
     width: 40px;
     height: 7px;
     display: flex;
@@ -35,7 +35,7 @@
   .toggle_menu-link {
     display: block;
     width: 200px;
-    background-color: yellow;
+    background-color: rgb(13, 59, 240);
     height: 100%;
     position: fixed;
     right: 0;
@@ -74,7 +74,7 @@
     list-style: none;
   }
   .theToggleLinks li a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 800;
   }
